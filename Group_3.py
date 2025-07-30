@@ -80,7 +80,7 @@ elif selected == "Predictor":
 
     Home = st.selectbox("Home Ownership", ["RENT", "MORTGAGE", "OWN", "OTHER"])
     Intent = st.selectbox("Loan Intent", ["EDUCATION", "MEDICAL", "VENTURE", "PERSONAL", "DEBTCONSOLIDATION", "HOMEIMPROVEMENT"])
-    Default = st.selectbox("Previous Default", ["Yes", "No"])
+    Default = st.selectbox("Previous Default", ["Y", "N"])
 
     # Preprocess inputs
     input_dict = {
