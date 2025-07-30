@@ -26,7 +26,7 @@ with st.sidebar:
         icons=["house", "activity", "info-circle"],
         default_index=1,
         styles={
-            "container": {"padding": "0!important", "background-color": "#247C6D"},
+            "container": {"padding": "0!important", "background-color": "#f9f9f9"},
             "icon": {"color": "#3b82f6", "font-size": "20px"},
             "nav-link": {"font-size": "16px", "text-align": "left"},
             "nav-link-selected": {"background-color": "#3b82f6", "color": "white"},
@@ -72,7 +72,7 @@ elif selected == "Predictor":
     # Example input fields — adjust based on your actual X_columns list
     Age = st.slider("Age", 18, 70, 30)
     Income = st.number_input("Monthly Income", min_value=0.0, step=100.0)
-    Emp_length = st.number_input("Employment Length (years)", min_value=0, step=1.0)
+    Emp_length = st.number_input("Employment Length (years)", min_value=0.0, step=1.0)
     Amount = st.number_input("Loan Amount", min_value=0.0, step=100.0)
     Rate = st.number_input("Interest Rate (%)", min_value=0.0, step=0.1)
     Percent_income = st.number_input("Percent of Income", min_value=0.0, step=0.01)
