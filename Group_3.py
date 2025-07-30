@@ -26,7 +26,7 @@ with st.sidebar:
         icons=["house", "activity", "info-circle"],
         default_index=1,
         styles={
-            "container": {"padding": "0!important", "background-color": "#f9f9f9"},
+            "container": {"padding": "0!important", "background-color": "#247C6D"},
             "icon": {"color": "#3b82f6", "font-size": "20px"},
             "nav-link": {"font-size": "16px", "text-align": "left"},
             "nav-link-selected": {"background-color": "#3b82f6", "color": "white"},
