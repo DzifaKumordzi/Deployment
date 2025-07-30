@@ -72,7 +72,7 @@ elif selected == "Predictor":
     # Example input fields — adjust based on your actual X_columns list
     Age = st.slider("Age", 18, 70, 30)
     Income = st.number_input("Monthly Income", min_value=0.0, step=100.0)
-    Emp_length = st.number_input("Employment Length (years)", min_value=0, step=1, format="%d")
+    Emp_length = st.number_input("Employment Length (years)", min_value=0.0, step=1.0)
     Amount = st.number_input("Loan Amount", min_value=0.0, step=100.0)
     Rate = st.number_input("Interest Rate (%)", min_value=0.0, step=0.1)
     Percent_income = st.number_input("Percent of Income", min_value=0.0, step=0.01)
